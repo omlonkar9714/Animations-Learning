@@ -10,6 +10,8 @@ import RadioButton from '../screens/RadioButton';
 import Waveheader from '../screens/Waveheader';
 import SvgHeader from '../screens/svgheader';
 import SvgImg from '../screens/SvgImg';
+import CircularAnimationgImg from '../screens/CircularAnimation';
+import Download from '../screens/Download';
 
 export default function MyStack() {
   return (
@@ -23,6 +25,11 @@ export default function MyStack() {
       <Stack.Screen name="Waveheader" component={Waveheader} />
       <Stack.Screen name="SvgHeader" component={SvgHeader} />
       <Stack.Screen name="SvgImg" component={SvgImg} />
+      <Stack.Screen name="Download" component={Download} />
+      <Stack.Screen
+        name="CircularAnimationgImg"
+        component={CircularAnimationgImg}
+      />
     </Stack.Navigator>
   );
 }

@@ -10,6 +10,8 @@ const screens = [
   {name: 'Waveheader'},
   {name: 'SvgHeader'},
   {name: 'SvgImg'},
+  {name: 'CircularAnimationgImg'},
+  {name: 'Download'},
 ];
 
 class List extends Component {

@@ -52,9 +52,14 @@ class ProgressBar extends Component {
   };
 
   render() {
+    const backgroundColorInterpolation = this.state.width.interpolate({
+      inputRange: [0, 50, 100],
+      outputRange: ['yellow', 'orange', 'red'],
+    });
+
     const animatedWidth = {
       width: this.state.progressStatus + '%',
-      backgroundColor: 'white',
+      backgroundColor: backgroundColorInterpolation,
       // this.state.progressStatus > 70
       //   ? 'green'
       //   : this.state.progressStatus > 30
