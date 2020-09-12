@@ -10,6 +10,10 @@ target 'Animations' do
 
   pod 'RNSVG', :path => '../node_modules/react-native-svg'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+
   target 'AnimationsTests' do
     inherit! :complete
     # Pods for testing

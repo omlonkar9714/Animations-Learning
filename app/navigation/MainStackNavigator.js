@@ -1,4 +1,5 @@
 import {createStackNavigator} from '@react-navigation/stack';
+import {fromLeft} from 'react-navigation-transitions';
 import React from 'react';
 const Stack = createStackNavigator();
 import List from '../screens/List';
@@ -12,6 +13,10 @@ import SvgHeader from '../screens/svgheader';
 import SvgImg from '../screens/SvgImg';
 import CircularAnimationgImg from '../screens/CircularAnimation';
 import Download from '../screens/Download';
+import AddToCart from '../screens/AddToCart';
+import Rounded from '../screens/Rounded';
+import Rounded2 from '../screens/Rounded2';
+import FastImage from '../screens/FastImage';
 
 export default function MyStack() {
   return (
@@ -26,6 +31,10 @@ export default function MyStack() {
       <Stack.Screen name="SvgHeader" component={SvgHeader} />
       <Stack.Screen name="SvgImg" component={SvgImg} />
       <Stack.Screen name="Download" component={Download} />
+      <Stack.Screen name="AddToCart" component={AddToCart} />
+      <Stack.Screen name="Rounded" component={Rounded} />
+      <Stack.Screen name="Rounded2" component={Rounded2} />
+      <Stack.Screen name="FastImage" component={FastImage} />
       <Stack.Screen
         name="CircularAnimationgImg"
         component={CircularAnimationgImg}
