@@ -2,7 +2,7 @@ import {createDrawerNavigator} from '@react-navigation/drawer';
 import React from 'react';
 import {View} from 'react-native';
 const Drawer = createDrawerNavigator();
-import Home from '../Screens/DrawerModules/Home/Home';
+import Home from '../Screens/DrawerModules/Home/HomeStack';
 import MyProfile from '../Screens/DrawerModules/MyProfile/MyProfile';
 import MyOrders from '../Screens/DrawerModules/MyOrders/MyOrders';
 import Setting from '../Screens/DrawerModules/Setting/Setting';

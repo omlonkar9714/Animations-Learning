@@ -13,7 +13,7 @@ import ScheduleReminder from '../Screens/ScheduleTrue/ScheduleReminder';
 
 export default function MyStack() {
   return (
-    <Stack.Navigator initialRouteName="ScheduleReminder" headerMode="none">
+    <Stack.Navigator initialRouteName="Login" headerMode="none">
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Signup" component={Signup} />
       <Stack.Screen name="Test" component={Test} />
